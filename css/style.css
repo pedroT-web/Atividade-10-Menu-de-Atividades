@@ -1,0 +1,128 @@
+*{
+    column-count: 3;
+    
+}
+.box1{
+    
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+    display: grid;
+
+}
+.box1:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box2{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+    display: grid;
+    
+}
+.box2:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box3{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box3:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box4{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box4:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box5{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box5:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box6{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box6:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box7{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box7:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box8{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box8:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box9{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box9:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
+
+.box10{
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+    margin: 3px;
+}
+.box10:hover{
+    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
+    background-color: coral;
+
+}
