@@ -1,128 +1,74 @@
-*{
-    column-count: 3;
+
+.quadrado{
     
+    
+    height: 370px;
+    width: 270px;
+
+    /*altera Todas as margen */
+    /* margin: 10px 20px 20px 100px; */
+    /*ALTERA a margen de cima */
+    margin-top: 10px;
+    /*ALTERA a margen da esquerda */
+    margin-left:100px;
+    /*ALTERA a margen da direita */
+    margin-right:20px;
+    /*ALTERA a margen de baixo */
+    margin-bottom: 30px;
+
+    /* Cria uma margen interna */
+    padding: 10px;
+    
+    background-color: #606060;
+    color: white;
+    border-radius: 20px;
+    
+    text-align: center;
+    
+    font-family:Arial, Helvetica, sans-serif;
+
+    transition: 0.5s
 }
-.box1{
-    
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
+.quadrado:hover{
+    /* tempo de transição de uma forma para outra*/
+    transition: 0.5s;
+    background-color: #808080;
+    /* Cria uma sombra no objeto */
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    /* Retira a borda */
+    border: none;
+}
+
+.quadrado p{
+    font-size: 16px;
+    height: 200px;
+}
+.quadrado a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    /* Serve para transformar o texte, ex:(MAIUSCULO, minusculo , Etc..) */
+    text-transform: lowercase;
+    background-color:#4c4c4c;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+.quadrado a:hover{
+    background-color: #ededed;
+    color: #4c4c4c;
+    transition: 0.5s;
+}
+.fundo{
+    background-color:#313131;
+}
+.grade{
+    /* Grid cria uma grade de colunas e linhas*/
     display: grid;
-
-}
-.box1:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box2{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-    display: grid;
+    /*Colunas: Definir o tamanho das colunas e quantas colunas quer */
+    grid-template-columns: 400px 400px 400px;
     
-}
-.box2:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box3{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box3:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box4{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box4:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box5{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box5:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box6{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box6:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box7{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box7:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box8{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box8:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box9{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box9:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
-}
-
-.box10{
-    background-color: chocolate;
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-}
-.box10:hover{
-    transition-duration: width 0.5s, height 0.5s, background-color 0.5s;
-    background-color: coral;
-
+    /* Linhas: Difinir o tamanho de cada espaço e quantas linhas quer */
+    grid-template-rows: 500px 500px 500px;
 }
